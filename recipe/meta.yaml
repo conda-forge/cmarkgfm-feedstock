@@ -37,7 +37,3 @@ about:
   license_family: MIT
   license_file: LICENSE.txt
   summary: Minimal bindings to GitHub's fork of cmark
-
-extra:
-  recipe-maintainers:
-    - jjhelmus
