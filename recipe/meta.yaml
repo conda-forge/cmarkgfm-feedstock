@@ -1,5 +1,5 @@
 {% set name = "cmarkgfm" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b6a549aba327abd986d6748cf21c8637d741c76850e7fefbdef8d28bfe138e32
+  sha256: ec2bf8d5799c4b5bbfbae30a4a1dfcb06512f2e17e9ee60ba7e1d390318582fc
 
 build:
   number: 0
