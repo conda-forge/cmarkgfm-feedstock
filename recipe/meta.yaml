@@ -23,12 +23,9 @@ requirements:
     - cffi >=1.0.0
     - pip
     - python
-    - m2w64-toolchain  # [win and py27]
-    - libpython        # [win and py27]
   run:
     - cffi >=1.0.0
     - python
-    - m2w64-gcc-libs   # [win and py27]
 
 test:
   imports:
