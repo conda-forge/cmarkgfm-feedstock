@@ -1,5 +1,5 @@
 {% set name = "cmarkgfm" %}
-{% set version = "2024.11.20" %}
+{% set version = "2025.10.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cmarkgfm-{{ version }}.tar.gz
-  sha256: 5dd01cf61975a8a57213cdef5ed870e936032f13fe93d60ddf659ffb9cf73c6a
+  sha256: c2e242b523043119365bf45a5b399368b0c2b85e6d1349b7b39c6085abd29ad1
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-build-isolation -vvv
 
 requirements:
