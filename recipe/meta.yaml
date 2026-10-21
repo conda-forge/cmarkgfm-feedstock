@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cmarkgfm-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cmarkgfm-{{ version }}.tar.gz
   sha256: 5bec61007b65b919488442c838c58a6c8bf4741f5103c593b2ef180d39818eda
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-build-isolation -vvv
 
 requirements:
