@@ -21,7 +21,7 @@ Current build status
       </a>
     </td>
   </tr>
-    
+
   <tr>
     <td>Azure</td>
     <td>
@@ -278,4 +278,3 @@ Feedstock Maintainers
 
 * [@pb01ka](https://github.com/pb01ka/)
 * [@seanlaw](https://github.com/seanlaw/)
-
